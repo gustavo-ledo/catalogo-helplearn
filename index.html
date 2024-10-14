@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HelpLearn</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="content">
+        <nav>
+          <p class="brand"><span style="color: black;"></span><strong>HelpLearn</strong>,  let's go together!</span></p>
+          <ul>
+            <li><a href="#catalog">Courses</a></li>
+            <li><a href="#about">About us</a></li>
+            <button>Login</button>
+          </ul>
+        </nav>
+        <div class="header-block">
+          <div class="text-header">
+              <h1><span style="color: #0d55b9;">HelpLearn</span> - Online Course Platform</h1>
+              <p>Welcome to <strong>HelpLearn</strong>, your ideal platform for acquiring knowledge in a practical and accessible way! Our course catalog covers a wide range of fields, offering everything from technical skills like programming and design to personal development, focusing on soft skills and management.</p>
+              <p>Our goal is to democratize access to education, providing an engaging and affordable learning experience for everyone.</p>
+              <div>
+                <button href="#" class="button">Sign up</button>
+                <a href="#catalog" id="view-course" class="button-none">View courses</a> 
+              </div>
+          </div>
+          <div class="video-header">
+           <video src="images/Design sem nome.mp4" height="500" autoplay loop muted></video>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="catalog" id="catalog">
+      <div class="content">
+        <div class="title-wrapper-catalog">
+          <p>Find what you want</p>
+          <h3>Courses</h3>
+        </div>
+        <div class="filter-card">
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Choose your favorite course"
+            id="search-course"
+          />
+          <p class="search-button"><span></span><svg style="margin-left: 100px; color: rgb(226, 223, 223);" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></p>
+        </div>
+        <div id="course-list"></div>
+        <div id="card-wrapper" class="card-wrapper">
+          <div class="card-item">
+            <img src="https://www.jetbrains.com/guide/assets/csharp-logo-265a149e.svg" height="150px" alt="Car" />
+            <div class="card-content">
+              <h3>C# - From Basics to Advanced</h3>
+              <p>
+                This C# course is designed to provide a comprehensive understanding of this powerful programming language.
+              </p>
+              <div class="type-course">
+                <span style="background-color: green;">Development</span>
+                <span style="background-color: red;">Programming</span>
+              </div>
+              <button type="button">I want this!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title-wrapper-about">
+          <p>Know about us</p>
+          <h3>About</h3>
+        </div>
+        <div class="about-content">
+          <div class="left">
+            <img src="https://img.freepik.com/fotos-gratis/universitarias-estudando-juntas_23-2149038414.jpg" height="300px" alt="About" />
+          </div>
+          <div class="right">
+            <h3>Join us and start learning today</h3>
+            <p>
+              At HelpLearn, we believe in the power of education to transform lives. Our mission is to provide a user-friendly platform that gives learners access to high-quality courses, no matter their background or location. We offer a wide variety of courses in different fields, from technology and business to personal development and creative skills.
+              <br>
+              Our team is passionate about making education accessible and engaging. We work with industry experts to create courses that are both practical and in line with the latest market demands. Whether you're just starting out or looking to enhance your skills, HelpLearn is here to support your journey with flexible learning solutions.
+              <br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <h3>HelpLearn</h3>
+        <p>Your go-to platform for online learning, offering high-quality courses for every skill level.</p>
+        <ul class="socials">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 HelpLearn. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+{
+    "courses": [
+       {
+           "id": 1,
+           "nameCourse": "C# - From Basics to Advanced",
+           "descriptionCourse": "This C# course is designed to provide a comprehensive understanding of this powerful programming language.",
+           "typeCourse": "Development",
+           "imageUrl": "https://www.jetbrains.com/guide/assets/csharp-logo-265a149e.svg"
+       },
+       {
+           "id": 2,
+           "nameCourse": "JavaScript - The Complete Guide",
+           "descriptionCourse": "Learn JavaScript from zero to hero in this comprehensive course.",
+           "typeCourse": "Development",
+           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+       },
+       {
+           "id": 3,
+           "nameCourse": "Python - Mastering Data Science",
+           "descriptionCourse": "An in-depth course that focuses on Python for data science and machine learning.",
+           "typeCourse": "Data Science",
+           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+       },
+       {
+           "id": 4,
+           "nameCourse": "UX/UI Design Principles",
+           "descriptionCourse": "Learn the basics of user experience and user interface design to create better digital products.",
+           "typeCourse": "Design",
+           "imageUrl": "https://cdn-icons-png.flaticon.com/512/6033/6033716.png"
+       },
+       {
+           "id": 5,
+           "nameCourse": "React Native - Mobile App",
+           "descriptionCourse": "Develop mobile apps using React Native in this hands-on course.",
+           "typeCourse": "Mobile Development",
+           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+       },
+       {
+           "id": 6,
+           "nameCourse": "AWS Cloud Essentials",
+           "descriptionCourse": "An introduction to AWS and cloud computing for beginners.",
+           "typeCourse": "Cloud Computing",
+           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
+       },
+       {
+           "id": 7,
+           "nameCourse": "HTML & CSS - Web Development",
+           "descriptionCourse": "Learn the foundational languages of web development: HTML and CSS.",
+           "typeCourse": "Web Development",
+           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+       },
+       {
+           "id": 8,
+           "nameCourse": "SQL - Database Management",
+           "descriptionCourse": "Understand how to manage databases using SQL in this comprehensive course.",
+           "typeCourse": "Database",
+           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Sql_data_base_with_logo.svg"
+       },
+       {
+           "id": 9,
+           "nameCourse": "Digital Marketing Strategies",
+           "descriptionCourse": "Learn how to develop and implement effective digital marketing strategies.",
+           "typeCourse": "Marketing",
+           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Wikimedia_Strategic_Planning_logo_%283%29.svg"
+       },
+       {
+           "id": 10,
+           "nameCourse": "Introduction to Cybersecurity",
+           "descriptionCourse": "Gain a fundamental understanding of cybersecurity principles and practices.",
+           "typeCourse": "Cybersecurity",
+           "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f8/Argus_Cyber_Security_logo.svg"
+       },
+       {
+           "id": 11,
+           "nameCourse": "Machine Learning A-Z",
+           "descriptionCourse": "Learn machine learning from scratch with this comprehensive course.",
+           "typeCourse": "Data Science",
+           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Hey_Machine_Learning_Logo.png"
+       },
+       {
+           "id": 12,
+           "nameCourse": "iOS Development with Swift",
+           "descriptionCourse": "Build powerful iOS applications using Swift in this hands-on course.",
+           "typeCourse": "Mobile Development",
+           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/IOS_logo.svg"
+       }
+    ]
+ }
+ 
